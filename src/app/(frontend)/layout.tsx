@@ -26,7 +26,7 @@ export default async function RootLayout(props: { children: React.ReactNode }) {
         <header className='max-w-6xl mx-auto flex items-center justify-between'>
           <div className='flex items-center gap-1'>
             <Image className='size-20' src={logo} alt='logo' />
-            <h1 className=' font-black text-3xl'>Mural Planet</h1>
+            {/* <h1 className=' font-black text-3xl'>Mural Planet</h1> */}
           </div>
           <nav className='flex items-center gap-4 font-medium py-5'>
             <a href="#">Home</a>
